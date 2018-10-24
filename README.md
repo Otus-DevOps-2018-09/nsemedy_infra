@@ -4,7 +4,8 @@ nsemedy Infra repository
 # Homework 3
 ## Данные для подключения
 
-bastion_IP = 35.241.239.118 someinternalhost_IP = 10.132.0.3
+bastion_IP = 35.241.239.118
+someinternalhost_IP = 10.132.0.3
 
 ## Подключение к someinternalhost в одну команду
 ProxyJump option
