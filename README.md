@@ -12,3 +12,8 @@ ProxyJump option
 
 ``` 
 ssh -i .ssh/id_rsa -A -J nataliakonyaeva@35.241.239.118 10.132.0.3
+
+# Homework 4
+## Данные для подключения
+testapp_IP = 35.195.143.50
+testapp_port = 9292
