@@ -10,7 +10,6 @@ someinternalhost_IP = 10.132.0.3
 ## Подключение к someinternalhost в одну команду
 ProxyJump option
 
-``` 
 ssh -i .ssh/id_rsa -A -J nataliakonyaeva@35.241.239.118 10.132.0.3
 
 # Homework 4
