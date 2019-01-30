@@ -6,7 +6,7 @@ provider "google" {
 module "storage-bucket" {
  source = "SweetOps/storage-bucket/google"
  version = "0.1.1"
- name = ["my-bucket-test", "my-bucket-test2"]
+ name = ["otus-hw-tf-stage", "otus-hw-tf-prod"]
 }
 output storage-bucket_url {
  value = "${module.storage-bucket.url}"
