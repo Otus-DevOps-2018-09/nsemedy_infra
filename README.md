@@ -28,3 +28,8 @@ packer build -var-file=variables.json ubuntu16.json
 Определена input переменная для задания зоны
 Создан файл terraform.tfvars.example
 
+# Homework 7
+Существующая структура импортирована в terraform
+Ресурс разбит на две ВМ: приложение и базу данных
+Конфигурация поделена на модули
+
