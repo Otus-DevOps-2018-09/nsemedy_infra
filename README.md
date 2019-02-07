@@ -33,3 +33,8 @@ packer build -var-file=variables.json ubuntu16.json
 Ресурс разбит на две ВМ: приложение и базу данных
 Конфигурация поделена на модули
 
+# Homework 8
+Написан простой ansible playbook
+После выполнения команды 
+ansible app -m command -a 'rm -rf ~/reddit'
+и повторного выполнения ansible-playbook clone.yml значение change изменилось на 1, так как файловая структура на сервере была изменена
