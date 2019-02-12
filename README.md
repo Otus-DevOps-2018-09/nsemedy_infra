@@ -38,3 +38,9 @@ packer build -var-file=variables.json ubuntu16.json
 После выполнения команды 
 ansible app -m command -a 'rm -rf ~/reddit'
 и повторного выполнения ansible-playbook clone.yml значение change изменилось на 1, так как файловая структура на сервере была изменена
+
+# Homework 9
+Написан playbook с одним сценарием
+Написан playbook с несколькими сценариями
+Один playbook разбит на 3: app.yml, db.yml, deploy.yml
+Изменены провижинеры в packer, пересобраны образы
